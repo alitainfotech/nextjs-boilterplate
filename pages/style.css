@@ -360,6 +360,7 @@ p.txt-a {
 
 
 
+
 /***/
 .sec_btn input {display: block;opacity: 0;}
 .sec_btn label {width: 60px;height: 30px;cursor: pointer;display: inline-block;position: relative;background: rgb(189, 189, 189);border-radius: 30px;transition: background-color 0.4s;-moz-transition: background-color 0.4s;-webkit-transition: background-color 0.4s;}
@@ -374,3 +375,32 @@ p.txt-a {
   left: 20px;
   z-index: 999;
 }
+
+
+
+@media (min-width:1500px) and (max-width: 1580px){
+  .b-inner h2 {font-size: 10.54em;}
+  .b-inner.b-three h2 {font-size: 11em;}
+  .b-inner.b-four h2 {font-size: 13em;}
+}
+
+@media (min-width:1400px) and (max-width: 1500px){
+  .b-inner h2 {font-size: 10.54em;}
+  .b-inner.b-three h2 {font-size: 11em;}
+  .b-inner.b-four h2 {font-size: 13em;}
+}
+
+@media (min-width:1300px) and (max-width: 1400px){
+  .b-inner h2 {font-size: 9.54em;}
+  .b-inner.b-three h2 {font-size: 10em;}
+  .b-inner.b-four h2 {font-size: 12em;}
+}
+
+
+
+
+
+
+
+
+
